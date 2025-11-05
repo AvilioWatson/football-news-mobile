@@ -28,7 +28,7 @@ class ItemCard extends StatelessWidget {
                 content: Text("Kamu telah menekan tombol ${item.name}!"),
               ),
             );
-          if (item.name == "Tambah Berita") {
+          if (item.name == "Add News") {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const NewsFormPage()),
